@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import cac from 'cac';
 import path from 'path';
 import { checkUpdate } from 'check-cli-update';
