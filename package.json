@@ -1,0 +1,34 @@
+{
+  "name": "cli-starter-template",
+  "version": "1.0.0",
+  "description": "A template for making CLI tool quickly.",
+  "main": "dist/index.js",
+  "bin": {
+    "cli-starter-template": "dist/index.js"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsup bin/index.ts"
+  },
+  "keywords": [
+    "cli",
+    "template"
+  ],
+  "author": "HomyeeKing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HomyeeKing/cli-starter.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cac": "^6.7.14",
+    "check-cli-update": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.4.2",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
