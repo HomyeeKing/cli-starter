@@ -2,6 +2,7 @@
   "name": "cli-starter-template",
   "version": "1.0.0",
   "description": "A template for making CLI tool quickly.",
+  "type": "module",
   "main": "dist/index.js",
   "bin": {
     "cli-starter-template": "dist/index.js"
@@ -30,5 +31,8 @@
     "@types/node": "^22.4.2",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
